@@ -21,6 +21,7 @@ config_schema:
   - ["mjs.generate_jsc", "b", true, {title: "Generate .jsc file when executing any .js file"}]
 modules:
   - origin: https://github.com/cesanta/mjs
+  - name: mjs
 
 tags:
   - js      # Supports JavaScript
